@@ -1,0 +1,1260 @@
+2018-02-04 12:39:58 rupucis-eME529 root[27782] INFO Starting VOIP Server - RGK
+2018-02-04 12:39:58 rupucis-eME529 root[27782] INFO Connected COM ports (15): ['/dev/ttyUSB3', '/dev/ttyUSB7', '/dev/ttyUSB12', '/dev/ttyUSB16', '/dev/ttyUSB21', '/dev/ttyUSB25', '/dev/ttyUSB30', '/dev/ttyUSB34', '/dev/ttyUSB39', '/dev/ttyUSB43', '/dev/ttyUSB48', '/dev/ttyUSB52', '/dev/ttyUSB57', '/dev/ttyUSB61', '/dev/ttyUSB66'] 
+2018-02-04 12:40:01 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:40:01 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_number_stats HTTP/1.1" 200 None
+2018-02-04 12:40:01 rupucis-eME529 root[27782] DEBUG API Connection status [get_phone_stats] (success) - Phone : +37255699925, 
+2018-02-04 12:40:01 rupucis-eME529 root[27782] INFO [SYS][ADDED DEVICE][SMR][1][/dev/ttyUSB3][37255699925]
+2018-02-04 12:40:01 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB3] [37255699925]
+2018-02-04 12:40:01 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:40:01 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:40:01 rupucis-eME529 root[27782] DEBUG Port check: {'status': 'call_start', 'call_phone': '+37120012150', 'call_id': 38121}
+2018-02-04 12:40:02 rupucis-eME529 root[27782] INFO [SLAVE][CALLING][37255699925][+37120012150]
+2018-02-04 12:40:02 rupucis-eME529 root[27782] DEBUG Variables: {'call_id': 38121, 'action': 'call_start', 'now_at': '2018-02-04 12:40:02', 'phone_number': 37255699925, 'call_number': '+37120012150', 'incoming_number': ''}
+2018-02-04 12:40:02 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:40:02 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/call_log HTTP/1.1" 200 None
+2018-02-04 12:40:07 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:40:07 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_number_stats HTTP/1.1" 200 None
+2018-02-04 12:40:07 rupucis-eME529 root[27782] DEBUG API Connection status [get_phone_stats] (success) - Phone : +37255922150, 
+2018-02-04 12:40:07 rupucis-eME529 root[27782] INFO [SYS][ADDED DEVICE][SMR][2][/dev/ttyUSB7][37255922150]
+2018-02-04 12:40:07 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB7] [37255922150]
+2018-02-04 12:40:07 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:40:07 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:40:13 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:40:13 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_number_stats HTTP/1.1" 200 None
+2018-02-04 12:40:13 rupucis-eME529 root[27782] DEBUG API Connection status [get_phone_stats] (success) - Phone : +3725570031, 
+2018-02-04 12:40:13 rupucis-eME529 root[27782] INFO [SYS][ADDED DEVICE][SMR][3][/dev/ttyUSB12][3725570031]
+2018-02-04 12:40:13 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB12] [3725570031]
+2018-02-04 12:40:13 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:40:13 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:40:19 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:40:19 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_number_stats HTTP/1.1" 200 None
+2018-02-04 12:40:19 rupucis-eME529 root[27782] DEBUG API Connection status [get_phone_stats] (success) - Phone : +37255699799, 
+2018-02-04 12:40:19 rupucis-eME529 root[27782] INFO [SYS][ADDED DEVICE][SMR][4][/dev/ttyUSB16][37255699799]
+2018-02-04 12:40:19 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB16] [37255699799]
+2018-02-04 12:40:19 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:40:19 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:40:25 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:40:25 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_number_stats HTTP/1.1" 200 None
+2018-02-04 12:40:25 rupucis-eME529 root[27782] DEBUG API Connection status [get_phone_stats] (success) - Phone : +3725570004, 
+2018-02-04 12:40:25 rupucis-eME529 root[27782] INFO [SYS][ADDED DEVICE][SMR][5][/dev/ttyUSB21][3725570004]
+2018-02-04 12:40:25 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB21] [3725570004]
+2018-02-04 12:40:25 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:40:25 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:40:31 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:40:31 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_number_stats HTTP/1.1" 200 None
+2018-02-04 12:40:31 rupucis-eME529 root[27782] DEBUG API Connection status [get_phone_stats] (success) - Phone : +3725570030, 
+2018-02-04 12:40:31 rupucis-eME529 root[27782] INFO [SYS][ADDED DEVICE][SMR][6][/dev/ttyUSB25][3725570030]
+2018-02-04 12:40:31 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB25] [3725570030]
+2018-02-04 12:40:31 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:40:31 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:40:33 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB3] [37255699925]
+2018-02-04 12:40:33 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:40:33 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:40:33 rupucis-eME529 root[27782] DEBUG Port check: {'status': 'call_hangup', 'call_id': 38121}
+2018-02-04 12:40:33 rupucis-eME529 root[27782] DEBUG Variables: {'call_id': 38121, 'action': 'call_hang_up', 'now_at': '2018-02-04 12:40:33', 'phone_number': 37255699925, 'call_number': '+37120012150', 'incoming_number': ''}
+2018-02-04 12:40:33 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:40:33 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/call_log HTTP/1.1" 200 None
+2018-02-04 12:40:33 rupucis-eME529 root[27782] DEBUG Variables: {'call_id': None, 'action': 'call_incoming_initiated', 'now_at': '2018-02-04 12:40:33', 'phone_number': 37255699925, 'call_number': None, 'incoming_number': ''}
+2018-02-04 12:40:33 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:40:33 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/call_log HTTP/1.1" 200 None
+2018-02-04 12:40:33 rupucis-eME529 root[27782] DEBUG Variables: {'call_id': None, 'action': 'call_ended', 'now_at': '2018-02-04 12:40:33', 'phone_number': 37255699925, 'call_number': None, 'incoming_number': '', 'call_type': 'call_reconnect'}
+2018-02-04 12:40:33 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:40:33 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/call_log HTTP/1.1" 200 None
+2018-02-04 12:40:37 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:40:37 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_number_stats HTTP/1.1" 200 None
+2018-02-04 12:40:37 rupucis-eME529 root[27782] DEBUG API Connection status [get_phone_stats] (success) - Phone : +3725570028, 
+2018-02-04 12:40:37 rupucis-eME529 root[27782] INFO [SYS][ADDED DEVICE][SMR][7][/dev/ttyUSB30][3725570028]
+2018-02-04 12:40:37 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB30] [3725570028]
+2018-02-04 12:40:37 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:40:37 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:40:37 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB7] [37255922150]
+2018-02-04 12:40:37 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:40:38 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:40:43 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:40:43 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_number_stats HTTP/1.1" 200 None
+2018-02-04 12:40:43 rupucis-eME529 root[27782] DEBUG API Connection status [get_phone_stats] (success) - Phone : +37255921299, 
+2018-02-04 12:40:43 rupucis-eME529 root[27782] INFO [SYS][ADDED DEVICE][SMR][8][/dev/ttyUSB34][37255921299]
+2018-02-04 12:40:43 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB34] [37255921299]
+2018-02-04 12:40:43 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:40:43 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB12] [3725570031]
+2018-02-04 12:40:43 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:40:43 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:40:44 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:40:49 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:40:49 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_number_stats HTTP/1.1" 200 None
+2018-02-04 12:40:49 rupucis-eME529 root[27782] DEBUG API Connection status [get_phone_stats] (success) - Phone : +37255922313, 
+2018-02-04 12:40:49 rupucis-eME529 root[27782] INFO [SYS][ADDED DEVICE][SMR][9][/dev/ttyUSB39][37255922313]
+2018-02-04 12:40:49 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB39] [37255922313]
+2018-02-04 12:40:49 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:40:49 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:40:49 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB16] [37255699799]
+2018-02-04 12:40:49 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:40:50 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:40:55 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:40:55 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_number_stats HTTP/1.1" 200 None
+2018-02-04 12:40:55 rupucis-eME529 root[27782] DEBUG API Connection status [get_phone_stats] (success) - Phone : +37255699899, 
+2018-02-04 12:40:55 rupucis-eME529 root[27782] INFO [SYS][ADDED DEVICE][SMR][10][/dev/ttyUSB43][37255699899]
+2018-02-04 12:40:55 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB43] [37255699899]
+2018-02-04 12:40:55 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:40:55 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:40:55 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB21] [3725570004]
+2018-02-04 12:40:55 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:40:56 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:41:01 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:41:01 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_number_stats HTTP/1.1" 200 None
+2018-02-04 12:41:01 rupucis-eME529 root[27782] DEBUG API Connection status [get_phone_stats] (success) - Phone : +37255922342, 
+2018-02-04 12:41:01 rupucis-eME529 root[27782] INFO [SYS][ADDED DEVICE][SMR][11][/dev/ttyUSB48][37255922342]
+2018-02-04 12:41:01 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB48] [37255922342]
+2018-02-04 12:41:01 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:41:01 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:41:01 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB25] [3725570030]
+2018-02-04 12:41:01 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:41:02 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:41:03 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB3] [37255699925]
+2018-02-04 12:41:03 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:41:03 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:41:07 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:41:07 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_number_stats HTTP/1.1" 200 None
+2018-02-04 12:41:07 rupucis-eME529 root[27782] DEBUG API Connection status [get_phone_stats] (success) - Phone : +37255699466, 
+2018-02-04 12:41:07 rupucis-eME529 root[27782] INFO [SYS][ADDED DEVICE][SMR][12][/dev/ttyUSB52][37255699466]
+2018-02-04 12:41:07 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB52] [37255699466]
+2018-02-04 12:41:07 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:41:07 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:41:07 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB30] [3725570028]
+2018-02-04 12:41:07 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:41:08 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB7] [37255922150]
+2018-02-04 12:41:08 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:41:08 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:41:08 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:41:13 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:41:13 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_number_stats HTTP/1.1" 200 None
+2018-02-04 12:41:13 rupucis-eME529 root[27782] DEBUG API Connection status [get_phone_stats] (success) - Phone : +37255699471, 
+2018-02-04 12:41:13 rupucis-eME529 root[27782] INFO [SYS][ADDED DEVICE][SMR][13][/dev/ttyUSB57][37255699471]
+2018-02-04 12:41:13 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB57] [37255699471]
+2018-02-04 12:41:13 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:41:13 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:41:13 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB34] [37255921299]
+2018-02-04 12:41:13 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:41:14 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB12] [3725570031]
+2018-02-04 12:41:14 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:41:14 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:41:14 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:41:19 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:41:19 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_number_stats HTTP/1.1" 200 None
+2018-02-04 12:41:19 rupucis-eME529 root[27782] DEBUG API Connection status [get_phone_stats] (success) - Phone : +37255699254, 
+2018-02-04 12:41:19 rupucis-eME529 root[27782] INFO [SYS][ADDED DEVICE][SMR][14][/dev/ttyUSB61][37255699254]
+2018-02-04 12:41:19 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB61] [37255699254]
+2018-02-04 12:41:19 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:41:19 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:41:19 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB39] [37255922313]
+2018-02-04 12:41:19 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:41:20 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB16] [37255699799]
+2018-02-04 12:41:20 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:41:20 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:41:20 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:41:25 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:41:25 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_number_stats HTTP/1.1" 200 None
+2018-02-04 12:41:25 rupucis-eME529 root[27782] DEBUG API Connection status [get_phone_stats] (success) - Phone : +37258387570, 
+2018-02-04 12:41:25 rupucis-eME529 root[27782] INFO [SYS][ADDED DEVICE][SMR][15][/dev/ttyUSB66][37258387570]
+2018-02-04 12:41:25 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB66] [37258387570]
+2018-02-04 12:41:25 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:41:25 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:41:25 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB43] [37255699899]
+2018-02-04 12:41:25 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:41:26 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:41:26 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB21] [3725570004]
+2018-02-04 12:41:26 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:41:26 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:41:31 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB48] [37255922342]
+2018-02-04 12:41:31 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:41:32 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB25] [3725570030]
+2018-02-04 12:41:32 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:41:32 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:41:32 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:41:33 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB3] [37255699925]
+2018-02-04 12:41:33 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:41:34 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:41:37 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB52] [37255699466]
+2018-02-04 12:41:37 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:41:38 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:41:38 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB30] [3725570028]
+2018-02-04 12:41:38 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:41:38 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB7] [37255922150]
+2018-02-04 12:41:38 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:41:38 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:41:38 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:41:43 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB57] [37255699471]
+2018-02-04 12:41:43 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:41:44 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:41:44 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB34] [37255921299]
+2018-02-04 12:41:44 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:41:44 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB12] [3725570031]
+2018-02-04 12:41:44 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:41:44 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:41:44 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:41:49 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB61] [37255699254]
+2018-02-04 12:41:49 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:41:50 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB39] [37255922313]
+2018-02-04 12:41:50 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:41:50 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:41:50 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB16] [37255699799]
+2018-02-04 12:41:50 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:41:50 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:41:50 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:41:55 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB66] [37258387570]
+2018-02-04 12:41:55 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:41:56 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB43] [37255699899]
+2018-02-04 12:41:56 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:41:56 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:41:56 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB21] [3725570004]
+2018-02-04 12:41:56 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:41:56 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:41:56 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:42:02 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB48] [37255922342]
+2018-02-04 12:42:02 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:42:02 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:42:02 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB25] [3725570030]
+2018-02-04 12:42:02 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:42:02 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:42:04 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB3] [37255699925]
+2018-02-04 12:42:04 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:42:04 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:42:08 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB52] [37255699466]
+2018-02-04 12:42:08 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:42:08 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:42:08 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB30] [3725570028]
+2018-02-04 12:42:08 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:42:08 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB7] [37255922150]
+2018-02-04 12:42:08 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:42:08 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:42:08 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:42:14 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB57] [37255699471]
+2018-02-04 12:42:14 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:42:14 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:42:14 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB34] [37255921299]
+2018-02-04 12:42:14 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:42:14 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:42:14 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB12] [3725570031]
+2018-02-04 12:42:14 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:42:14 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:42:20 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB61] [37255699254]
+2018-02-04 12:42:20 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:42:20 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB39] [37255922313]
+2018-02-04 12:42:20 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:42:20 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:42:20 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:42:20 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB16] [37255699799]
+2018-02-04 12:42:20 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:42:20 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:42:26 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB66] [37258387570]
+2018-02-04 12:42:26 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:42:26 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB43] [37255699899]
+2018-02-04 12:42:26 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:42:26 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:42:26 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:42:26 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB21] [3725570004]
+2018-02-04 12:42:26 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:42:26 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:42:32 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB48] [37255922342]
+2018-02-04 12:42:32 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:42:32 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:42:32 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB25] [3725570030]
+2018-02-04 12:42:32 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:42:32 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:42:34 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB3] [37255699925]
+2018-02-04 12:42:34 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:42:34 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:42:38 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB52] [37255699466]
+2018-02-04 12:42:38 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:42:38 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:42:38 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB30] [3725570028]
+2018-02-04 12:42:38 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:42:38 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB7] [37255922150]
+2018-02-04 12:42:38 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:42:38 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:42:38 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:42:44 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB57] [37255699471]
+2018-02-04 12:42:44 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:42:44 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:42:44 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB34] [37255921299]
+2018-02-04 12:42:44 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:42:44 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB12] [3725570031]
+2018-02-04 12:42:44 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:42:44 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:42:44 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:42:50 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB61] [37255699254]
+2018-02-04 12:42:50 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:42:50 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB39] [37255922313]
+2018-02-04 12:42:50 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:42:50 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:42:50 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:42:50 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB16] [37255699799]
+2018-02-04 12:42:50 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:42:50 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:42:56 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB66] [37258387570]
+2018-02-04 12:42:56 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:42:56 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB43] [37255699899]
+2018-02-04 12:42:56 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:42:56 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:42:56 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:42:56 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB21] [3725570004]
+2018-02-04 12:42:56 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:42:56 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:43:02 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB48] [37255922342]
+2018-02-04 12:43:02 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:43:02 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:43:02 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB25] [3725570030]
+2018-02-04 12:43:02 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:43:02 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:43:04 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB3] [37255699925]
+2018-02-04 12:43:04 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:43:04 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:43:08 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB52] [37255699466]
+2018-02-04 12:43:08 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:43:08 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:43:08 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB30] [3725570028]
+2018-02-04 12:43:08 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:43:08 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB7] [37255922150]
+2018-02-04 12:43:08 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:43:09 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:43:09 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:43:14 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB57] [37255699471]
+2018-02-04 12:43:14 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:43:14 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:43:14 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB34] [37255921299]
+2018-02-04 12:43:14 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:43:15 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB12] [3725570031]
+2018-02-04 12:43:15 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:43:15 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:43:15 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:43:20 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB61] [37255699254]
+2018-02-04 12:43:20 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:43:20 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB39] [37255922313]
+2018-02-04 12:43:20 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:43:20 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:43:20 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:43:21 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB16] [37255699799]
+2018-02-04 12:43:21 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:43:21 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:43:26 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB66] [37258387570]
+2018-02-04 12:43:26 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:43:26 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB43] [37255699899]
+2018-02-04 12:43:26 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:43:26 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:43:26 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:43:27 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB21] [3725570004]
+2018-02-04 12:43:27 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:43:27 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:43:32 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB48] [37255922342]
+2018-02-04 12:43:32 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:43:32 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB25] [3725570030]
+2018-02-04 12:43:32 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:43:32 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:43:33 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:43:34 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB3] [37255699925]
+2018-02-04 12:43:34 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:43:35 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:43:38 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB52] [37255699466]
+2018-02-04 12:43:38 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:43:39 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:43:39 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB30] [3725570028]
+2018-02-04 12:43:39 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:43:39 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB7] [37255922150]
+2018-02-04 12:43:39 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:43:39 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:43:39 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:43:44 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB57] [37255699471]
+2018-02-04 12:43:44 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:43:45 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:43:45 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB34] [37255921299]
+2018-02-04 12:43:45 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:43:45 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB12] [3725570031]
+2018-02-04 12:43:45 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:43:45 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:43:45 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:43:50 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB61] [37255699254]
+2018-02-04 12:43:50 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:43:51 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB39] [37255922313]
+2018-02-04 12:43:51 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:43:51 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:43:51 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:43:51 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB16] [37255699799]
+2018-02-04 12:43:51 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:43:51 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:43:56 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB66] [37258387570]
+2018-02-04 12:43:56 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:43:57 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB43] [37255699899]
+2018-02-04 12:43:57 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:43:57 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:43:57 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:43:57 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB21] [3725570004]
+2018-02-04 12:43:57 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:43:57 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:44:03 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB48] [37255922342]
+2018-02-04 12:44:03 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:44:03 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB25] [3725570030]
+2018-02-04 12:44:03 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:44:03 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:44:03 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:44:05 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB3] [37255699925]
+2018-02-04 12:44:05 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:44:05 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:44:09 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB52] [37255699466]
+2018-02-04 12:44:09 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:44:09 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:44:09 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB30] [3725570028]
+2018-02-04 12:44:09 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:44:09 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB7] [37255922150]
+2018-02-04 12:44:09 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:44:09 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:44:09 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:44:15 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB57] [37255699471]
+2018-02-04 12:44:15 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:44:15 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:44:15 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB34] [37255921299]
+2018-02-04 12:44:15 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:44:15 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB12] [3725570031]
+2018-02-04 12:44:15 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:44:15 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:44:15 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:44:21 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB61] [37255699254]
+2018-02-04 12:44:21 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:44:21 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB39] [37255922313]
+2018-02-04 12:44:21 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:44:21 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:44:21 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:44:21 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB16] [37255699799]
+2018-02-04 12:44:21 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:44:21 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:44:27 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB66] [37258387570]
+2018-02-04 12:44:27 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:44:27 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB43] [37255699899]
+2018-02-04 12:44:27 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:44:27 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:44:27 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:44:27 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB21] [3725570004]
+2018-02-04 12:44:27 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:44:27 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:44:33 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB48] [37255922342]
+2018-02-04 12:44:33 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:44:33 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB25] [3725570030]
+2018-02-04 12:44:33 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:44:33 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:44:33 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:44:35 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB3] [37255699925]
+2018-02-04 12:44:35 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:44:35 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:44:39 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB52] [37255699466]
+2018-02-04 12:44:39 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:44:39 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB30] [3725570028]
+2018-02-04 12:44:39 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:44:39 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:44:39 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB7] [37255922150]
+2018-02-04 12:44:39 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:44:39 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:44:39 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:44:45 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB57] [37255699471]
+2018-02-04 12:44:45 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:44:45 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:44:45 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB34] [37255921299]
+2018-02-04 12:44:45 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:44:45 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB12] [3725570031]
+2018-02-04 12:44:45 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:44:45 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:44:45 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:44:45 rupucis-eME529 root[27782] DEBUG Port check: {'status': 'call_start', 'call_phone': '+37129112768', 'call_id': 38122}
+2018-02-04 12:44:46 rupucis-eME529 root[27782] INFO [SLAVE][CALLING][3725570031][+37129112768]
+2018-02-04 12:44:46 rupucis-eME529 root[27782] DEBUG Variables: {'call_id': 38122, 'action': 'call_start', 'now_at': '2018-02-04 12:44:46', 'phone_number': 3725570031, 'call_number': '+37129112768', 'incoming_number': ''}
+2018-02-04 12:44:46 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:44:46 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/call_log HTTP/1.1" 200 None
+2018-02-04 12:44:51 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB61] [37255699254]
+2018-02-04 12:44:51 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:44:51 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB39] [37255922313]
+2018-02-04 12:44:51 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:44:51 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:44:51 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:44:51 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB16] [37255699799]
+2018-02-04 12:44:51 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:44:51 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:44:57 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB66] [37258387570]
+2018-02-04 12:44:57 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:44:57 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB43] [37255699899]
+2018-02-04 12:44:57 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:44:57 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:44:57 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB21] [3725570004]
+2018-02-04 12:44:57 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:44:57 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:44:57 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:45:03 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB48] [37255922342]
+2018-02-04 12:45:03 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:45:03 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB25] [3725570030]
+2018-02-04 12:45:03 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:45:03 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:45:03 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:45:05 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB3] [37255699925]
+2018-02-04 12:45:05 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:45:05 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:45:09 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB52] [37255699466]
+2018-02-04 12:45:09 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:45:09 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:45:09 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB30] [3725570028]
+2018-02-04 12:45:09 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:45:09 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB7] [37255922150]
+2018-02-04 12:45:09 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:45:09 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:45:10 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:45:15 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB57] [37255699471]
+2018-02-04 12:45:15 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:45:15 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:45:15 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB34] [37255921299]
+2018-02-04 12:45:15 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:45:15 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:45:16 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB12] [3725570031]
+2018-02-04 12:45:16 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:45:16 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:45:16 rupucis-eME529 root[27782] DEBUG Variables: {'call_id': 38122, 'action': 'call_incoming_initiated', 'now_at': '2018-02-04 12:45:16', 'phone_number': 3725570031, 'call_number': '+37129112768', 'incoming_number': ''}
+2018-02-04 12:45:16 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:45:17 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/call_log HTTP/1.1" 200 None
+2018-02-04 12:45:17 rupucis-eME529 root[27782] DEBUG Variables: {'call_id': 38122, 'action': 'call_ended', 'now_at': '2018-02-04 12:45:17', 'phone_number': 3725570031, 'call_number': '+37129112768', 'incoming_number': '', 'call_type': 'call_reconnect'}
+2018-02-04 12:45:17 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:45:17 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/call_log HTTP/1.1" 200 None
+2018-02-04 12:45:21 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB61] [37255699254]
+2018-02-04 12:45:21 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:45:21 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB39] [37255922313]
+2018-02-04 12:45:21 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:45:21 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:45:21 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:45:21 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB16] [37255699799]
+2018-02-04 12:45:21 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:45:22 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:45:27 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB66] [37258387570]
+2018-02-04 12:45:27 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:45:27 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB43] [37255699899]
+2018-02-04 12:45:27 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:45:27 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:45:27 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB21] [3725570004]
+2018-02-04 12:45:27 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:45:27 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:45:28 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:45:33 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB48] [37255922342]
+2018-02-04 12:45:33 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:45:33 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB25] [3725570030]
+2018-02-04 12:45:33 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:45:34 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:45:34 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:45:35 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB3] [37255699925]
+2018-02-04 12:45:35 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:45:36 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:45:39 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB52] [37255699466]
+2018-02-04 12:45:39 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:45:39 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:45:39 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB30] [3725570028]
+2018-02-04 12:45:39 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:45:40 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB7] [37255922150]
+2018-02-04 12:45:40 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:45:40 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:45:40 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:45:45 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB57] [37255699471]
+2018-02-04 12:45:45 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:45:45 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:45:46 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB34] [37255921299]
+2018-02-04 12:45:46 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:45:46 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:45:47 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB12] [3725570031]
+2018-02-04 12:45:47 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:45:47 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:45:51 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB61] [37255699254]
+2018-02-04 12:45:51 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:45:51 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB39] [37255922313]
+2018-02-04 12:45:51 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:45:51 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:45:52 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:45:52 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB16] [37255699799]
+2018-02-04 12:45:52 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:45:52 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:45:57 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB66] [37258387570]
+2018-02-04 12:45:57 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:45:58 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB43] [37255699899]
+2018-02-04 12:45:58 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:45:58 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:45:58 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB21] [3725570004]
+2018-02-04 12:45:58 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:45:58 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:45:58 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:46:04 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB48] [37255922342]
+2018-02-04 12:46:04 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:46:04 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB25] [3725570030]
+2018-02-04 12:46:04 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:46:04 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:46:04 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:46:06 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB3] [37255699925]
+2018-02-04 12:46:06 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:46:06 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:46:10 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB52] [37255699466]
+2018-02-04 12:46:10 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:46:10 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB30] [3725570028]
+2018-02-04 12:46:10 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:46:10 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:46:10 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB7] [37255922150]
+2018-02-04 12:46:10 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:46:10 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:46:10 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:46:16 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB57] [37255699471]
+2018-02-04 12:46:16 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:46:16 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:46:16 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB34] [37255921299]
+2018-02-04 12:46:16 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:46:16 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:46:17 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB12] [3725570031]
+2018-02-04 12:46:17 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:46:17 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:46:22 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB61] [37255699254]
+2018-02-04 12:46:22 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:46:22 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB39] [37255922313]
+2018-02-04 12:46:22 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:46:22 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:46:22 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:46:22 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB16] [37255699799]
+2018-02-04 12:46:22 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:46:22 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:46:28 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB66] [37258387570]
+2018-02-04 12:46:28 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:46:28 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB43] [37255699899]
+2018-02-04 12:46:28 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:46:28 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:46:28 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB21] [3725570004]
+2018-02-04 12:46:28 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:46:28 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:46:28 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:46:34 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB48] [37255922342]
+2018-02-04 12:46:34 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:46:34 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB25] [3725570030]
+2018-02-04 12:46:34 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:46:34 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:46:34 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:46:36 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB3] [37255699925]
+2018-02-04 12:46:36 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:46:36 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:46:40 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB52] [37255699466]
+2018-02-04 12:46:40 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:46:40 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB30] [3725570028]
+2018-02-04 12:46:40 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:46:40 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:46:40 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB7] [37255922150]
+2018-02-04 12:46:40 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:46:40 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:46:40 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:46:46 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB57] [37255699471]
+2018-02-04 12:46:46 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:46:46 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:46:46 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB34] [37255921299]
+2018-02-04 12:46:46 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:46:46 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:46:47 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB12] [3725570031]
+2018-02-04 12:46:47 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:46:47 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:46:47 rupucis-eME529 root[27782] DEBUG Port check: {'status': 'call_hangup', 'call_id': 38122}
+2018-02-04 12:46:52 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB61] [37255699254]
+2018-02-04 12:46:52 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:46:52 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB39] [37255922313]
+2018-02-04 12:46:52 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:46:52 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:46:52 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:46:52 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB16] [37255699799]
+2018-02-04 12:46:52 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:46:52 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:46:58 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB66] [37258387570]
+2018-02-04 12:46:58 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:46:58 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB43] [37255699899]
+2018-02-04 12:46:58 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:46:58 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:46:58 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB21] [3725570004]
+2018-02-04 12:46:58 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:46:58 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:46:58 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:47:04 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB48] [37255922342]
+2018-02-04 12:47:04 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:47:04 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB25] [3725570030]
+2018-02-04 12:47:04 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:47:04 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:47:04 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:47:06 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB3] [37255699925]
+2018-02-04 12:47:06 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:47:06 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:47:10 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB52] [37255699466]
+2018-02-04 12:47:10 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:47:10 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB30] [3725570028]
+2018-02-04 12:47:10 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:47:10 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:47:10 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB7] [37255922150]
+2018-02-04 12:47:10 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:47:10 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:47:10 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:47:16 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB57] [37255699471]
+2018-02-04 12:47:16 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:47:16 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:47:16 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB34] [37255921299]
+2018-02-04 12:47:16 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:47:16 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:47:17 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB12] [3725570031]
+2018-02-04 12:47:18 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:47:18 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:47:18 rupucis-eME529 root[27782] DEBUG Port check: {'status': 'call_hangup', 'call_id': 38122}
+2018-02-04 12:47:22 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB61] [37255699254]
+2018-02-04 12:47:22 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:47:22 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB39] [37255922313]
+2018-02-04 12:47:22 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:47:22 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:47:22 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:47:22 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB16] [37255699799]
+2018-02-04 12:47:22 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:47:23 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:47:28 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB66] [37258387570]
+2018-02-04 12:47:28 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:47:28 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB43] [37255699899]
+2018-02-04 12:47:28 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:47:28 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:47:28 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB21] [3725570004]
+2018-02-04 12:47:28 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:47:28 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:47:29 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:47:34 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB48] [37255922342]
+2018-02-04 12:47:34 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:47:34 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB25] [3725570030]
+2018-02-04 12:47:34 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:47:34 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:47:35 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:47:36 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB3] [37255699925]
+2018-02-04 12:47:36 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:47:36 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:47:40 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB52] [37255699466]
+2018-02-04 12:47:40 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:47:40 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB30] [3725570028]
+2018-02-04 12:47:40 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:47:40 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:47:41 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB7] [37255922150]
+2018-02-04 12:47:41 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:47:41 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:47:41 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:47:46 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB57] [37255699471]
+2018-02-04 12:47:46 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:47:46 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:47:46 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB34] [37255921299]
+2018-02-04 12:47:46 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:47:47 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:47:48 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB12] [3725570031]
+2018-02-04 12:47:48 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:47:48 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:47:48 rupucis-eME529 root[27782] DEBUG Port check: {'status': 'call_hangup', 'call_id': 38122}
+2018-02-04 12:47:52 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB61] [37255699254]
+2018-02-04 12:47:52 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:47:52 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB39] [37255922313]
+2018-02-04 12:47:52 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:47:53 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:47:53 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:47:53 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB16] [37255699799]
+2018-02-04 12:47:53 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:47:53 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:47:58 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB66] [37258387570]
+2018-02-04 12:47:58 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:47:58 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB43] [37255699899]
+2018-02-04 12:47:58 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:47:59 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:47:59 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB21] [3725570004]
+2018-02-04 12:47:59 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:47:59 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:47:59 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:48:05 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB48] [37255922342]
+2018-02-04 12:48:05 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:48:05 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB25] [3725570030]
+2018-02-04 12:48:05 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:48:05 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:48:05 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:48:07 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB3] [37255699925]
+2018-02-04 12:48:07 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:48:07 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:48:11 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB52] [37255699466]
+2018-02-04 12:48:11 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:48:11 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB30] [3725570028]
+2018-02-04 12:48:11 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:48:11 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:48:11 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB7] [37255922150]
+2018-02-04 12:48:11 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:48:11 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:48:11 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:48:16 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB57] [37255699471]
+2018-02-04 12:48:16 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:48:17 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB34] [37255921299]
+2018-02-04 12:48:17 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:48:17 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:48:17 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:48:18 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB12] [3725570031]
+2018-02-04 12:48:18 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:48:18 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:48:18 rupucis-eME529 root[27782] DEBUG Port check: {'status': 'call_hangup', 'call_id': 38122}
+2018-02-04 12:48:23 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB39] [37255922313]
+2018-02-04 12:48:23 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB61] [37255699254]
+2018-02-04 12:48:23 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:48:23 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:48:23 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:48:23 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:48:23 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB16] [37255699799]
+2018-02-04 12:48:23 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:48:23 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:48:29 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB66] [37258387570]
+2018-02-04 12:48:29 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:48:29 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB43] [37255699899]
+2018-02-04 12:48:29 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:48:29 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:48:29 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB21] [3725570004]
+2018-02-04 12:48:29 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:48:29 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:48:29 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:48:35 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB48] [37255922342]
+2018-02-04 12:48:35 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB25] [3725570030]
+2018-02-04 12:48:35 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:48:35 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:48:35 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:48:35 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:48:37 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB3] [37255699925]
+2018-02-04 12:48:37 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:48:37 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:48:41 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB52] [37255699466]
+2018-02-04 12:48:41 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:48:41 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB30] [3725570028]
+2018-02-04 12:48:41 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:48:41 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:48:41 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB7] [37255922150]
+2018-02-04 12:48:41 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:48:41 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:48:41 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:48:47 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB57] [37255699471]
+2018-02-04 12:48:47 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:48:47 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB34] [37255921299]
+2018-02-04 12:48:47 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:48:47 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:48:47 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:48:48 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB12] [3725570031]
+2018-02-04 12:48:48 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:48:49 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:48:49 rupucis-eME529 root[27782] DEBUG Port check: {'status': 'call_hangup', 'call_id': 38122}
+2018-02-04 12:48:53 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB61] [37255699254]
+2018-02-04 12:48:53 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:48:53 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB39] [37255922313]
+2018-02-04 12:48:53 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:48:53 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB16] [37255699799]
+2018-02-04 12:48:53 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:48:53 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:48:53 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:48:53 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:48:59 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB66] [37258387570]
+2018-02-04 12:48:59 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:48:59 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB43] [37255699899]
+2018-02-04 12:48:59 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:48:59 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:48:59 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB21] [3725570004]
+2018-02-04 12:48:59 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:48:59 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:48:59 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:49:05 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB25] [3725570030]
+2018-02-04 12:49:05 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:49:05 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB48] [37255922342]
+2018-02-04 12:49:05 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:49:05 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:49:05 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:49:07 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB3] [37255699925]
+2018-02-04 12:49:07 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:49:07 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:49:11 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB52] [37255699466]
+2018-02-04 12:49:11 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:49:11 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB30] [3725570028]
+2018-02-04 12:49:11 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:49:11 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB7] [37255922150]
+2018-02-04 12:49:11 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:49:11 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:49:11 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:49:11 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:49:17 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB57] [37255699471]
+2018-02-04 12:49:17 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:49:17 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB34] [37255921299]
+2018-02-04 12:49:17 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:49:17 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:49:17 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:49:19 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB12] [3725570031]
+2018-02-04 12:49:19 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:49:19 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:49:19 rupucis-eME529 root[27782] DEBUG Port check: {'status': 'call_hangup', 'call_id': 38122}
+2018-02-04 12:49:23 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB39] [37255922313]
+2018-02-04 12:49:23 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:49:23 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB61] [37255699254]
+2018-02-04 12:49:23 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:49:23 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB16] [37255699799]
+2018-02-04 12:49:23 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:49:24 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:49:24 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:49:24 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:49:29 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB66] [37258387570]
+2018-02-04 12:49:29 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:49:29 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:49:29 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB43] [37255699899]
+2018-02-04 12:49:29 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:49:29 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:49:30 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB21] [3725570004]
+2018-02-04 12:49:30 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:49:30 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:49:35 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB25] [3725570030]
+2018-02-04 12:49:35 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:49:35 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB48] [37255922342]
+2018-02-04 12:49:35 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:49:36 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:49:36 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:49:37 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB3] [37255699925]
+2018-02-04 12:49:37 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:49:38 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:49:41 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB52] [37255699466]
+2018-02-04 12:49:41 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:49:41 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB30] [3725570028]
+2018-02-04 12:49:41 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:49:41 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB7] [37255922150]
+2018-02-04 12:49:41 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:49:42 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:49:42 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:49:42 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:49:47 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB57] [37255699471]
+2018-02-04 12:49:47 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:49:47 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB34] [37255921299]
+2018-02-04 12:49:47 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:49:47 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:49:48 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:49:49 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB12] [3725570031]
+2018-02-04 12:49:49 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:49:49 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:49:49 rupucis-eME529 root[27782] DEBUG Port check: {'status': 'call_hangup', 'call_id': 38122}
+2018-02-04 12:49:54 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB39] [37255922313]
+2018-02-04 12:49:54 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:49:54 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB61] [37255699254]
+2018-02-04 12:49:54 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:49:54 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB16] [37255699799]
+2018-02-04 12:49:54 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:49:54 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:49:54 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:49:54 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:49:59 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB66] [37258387570]
+2018-02-04 12:49:59 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:50:00 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB43] [37255699899]
+2018-02-04 12:50:00 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:50:00 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:50:00 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:50:00 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB21] [3725570004]
+2018-02-04 12:50:00 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:50:00 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:50:06 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB25] [3725570030]
+2018-02-04 12:50:06 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:50:06 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB48] [37255922342]
+2018-02-04 12:50:06 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:50:06 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:50:06 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:50:08 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB3] [37255699925]
+2018-02-04 12:50:08 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:50:08 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:50:12 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB52] [37255699466]
+2018-02-04 12:50:12 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:50:12 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB30] [3725570028]
+2018-02-04 12:50:12 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:50:12 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:50:12 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB7] [37255922150]
+2018-02-04 12:50:12 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:50:12 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:50:12 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:50:17 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB57] [37255699471]
+2018-02-04 12:50:17 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:50:18 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB34] [37255921299]
+2018-02-04 12:50:18 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:50:18 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:50:18 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:50:19 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB12] [3725570031]
+2018-02-04 12:50:19 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:50:19 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:50:19 rupucis-eME529 root[27782] DEBUG Port check: {'status': 'call_hangup', 'call_id': 38122}
+2018-02-04 12:50:24 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB39] [37255922313]
+2018-02-04 12:50:24 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:50:24 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB61] [37255699254]
+2018-02-04 12:50:24 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:50:24 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB16] [37255699799]
+2018-02-04 12:50:24 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:50:24 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:50:24 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:50:24 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:50:30 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB66] [37258387570]
+2018-02-04 12:50:30 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:50:30 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB43] [37255699899]
+2018-02-04 12:50:30 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:50:30 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:50:30 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:50:30 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB21] [3725570004]
+2018-02-04 12:50:30 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:50:30 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:50:36 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB25] [3725570030]
+2018-02-04 12:50:36 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:50:36 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB48] [37255922342]
+2018-02-04 12:50:36 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:50:36 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:50:36 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:50:38 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB3] [37255699925]
+2018-02-04 12:50:38 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:50:38 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:50:42 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB52] [37255699466]
+2018-02-04 12:50:42 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:50:42 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB30] [3725570028]
+2018-02-04 12:50:42 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:50:42 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:50:42 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB7] [37255922150]
+2018-02-04 12:50:42 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:50:42 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:50:42 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:50:48 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB57] [37255699471]
+2018-02-04 12:50:48 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:50:48 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB34] [37255921299]
+2018-02-04 12:50:48 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:50:48 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:50:48 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:50:49 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB12] [3725570031]
+2018-02-04 12:50:49 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:50:49 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:50:49 rupucis-eME529 root[27782] DEBUG Port check: {'status': 'call_hangup', 'call_id': 38122}
+2018-02-04 12:50:54 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB61] [37255699254]
+2018-02-04 12:50:54 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:50:54 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB39] [37255922313]
+2018-02-04 12:50:54 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:50:54 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB16] [37255699799]
+2018-02-04 12:50:54 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:50:54 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:50:54 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:50:54 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:51:00 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB66] [37258387570]
+2018-02-04 12:51:00 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:51:00 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB43] [37255699899]
+2018-02-04 12:51:00 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:51:00 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:51:00 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:51:00 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB21] [3725570004]
+2018-02-04 12:51:00 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:51:00 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:51:06 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB25] [3725570030]
+2018-02-04 12:51:06 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:51:06 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB48] [37255922342]
+2018-02-04 12:51:06 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:51:06 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:51:06 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:51:08 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB3] [37255699925]
+2018-02-04 12:51:08 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:51:08 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:51:12 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB52] [37255699466]
+2018-02-04 12:51:12 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:51:12 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:51:12 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB30] [3725570028]
+2018-02-04 12:51:12 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:51:12 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB7] [37255922150]
+2018-02-04 12:51:12 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:51:12 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:51:12 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:51:18 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB57] [37255699471]
+2018-02-04 12:51:18 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:51:18 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB34] [37255921299]
+2018-02-04 12:51:18 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:51:18 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:51:18 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:51:19 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB12] [3725570031]
+2018-02-04 12:51:19 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:51:20 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:51:20 rupucis-eME529 root[27782] DEBUG Port check: {'status': 'call_hangup', 'call_id': 38122}
+2018-02-04 12:51:24 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB61] [37255699254]
+2018-02-04 12:51:24 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:51:24 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB39] [37255922313]
+2018-02-04 12:51:24 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:51:25 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB16] [37255699799]
+2018-02-04 12:51:25 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:51:25 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:51:25 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:51:25 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:51:30 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB66] [37258387570]
+2018-02-04 12:51:30 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:51:30 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB43] [37255699899]
+2018-02-04 12:51:30 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:51:30 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:51:30 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB21] [3725570004]
+2018-02-04 12:51:30 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:51:30 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:51:31 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:51:36 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB25] [3725570030]
+2018-02-04 12:51:36 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:51:36 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB48] [37255922342]
+2018-02-04 12:51:36 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:51:37 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:51:37 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:51:38 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB3] [37255699925]
+2018-02-04 12:51:38 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:51:38 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:51:42 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB52] [37255699466]
+2018-02-04 12:51:42 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:51:42 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:51:42 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB30] [3725570028]
+2018-02-04 12:51:42 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:51:43 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB7] [37255922150]
+2018-02-04 12:51:43 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:51:43 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:51:43 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:51:48 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB57] [37255699471]
+2018-02-04 12:51:48 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:51:48 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB34] [37255921299]
+2018-02-04 12:51:48 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:51:48 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:51:49 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:51:50 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB12] [3725570031]
+2018-02-04 12:51:50 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:51:50 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:51:50 rupucis-eME529 root[27782] DEBUG Port check: {'status': 'call_hangup', 'call_id': 38122}
+2018-02-04 12:51:55 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB61] [37255699254]
+2018-02-04 12:51:55 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:51:55 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB39] [37255922313]
+2018-02-04 12:51:55 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:51:55 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB16] [37255699799]
+2018-02-04 12:51:55 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:51:55 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:51:55 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:51:55 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:52:00 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB66] [37258387570]
+2018-02-04 12:52:00 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:52:00 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB43] [37255699899]
+2018-02-04 12:52:00 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:52:01 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:52:01 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:52:01 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB21] [3725570004]
+2018-02-04 12:52:01 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:52:01 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:52:07 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB25] [3725570030]
+2018-02-04 12:52:07 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:52:07 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB48] [37255922342]
+2018-02-04 12:52:07 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:52:07 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:52:07 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:52:08 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB3] [37255699925]
+2018-02-04 12:52:08 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:52:09 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:52:12 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB52] [37255699466]
+2018-02-04 12:52:12 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:52:13 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:52:13 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB30] [3725570028]
+2018-02-04 12:52:13 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:52:13 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB7] [37255922150]
+2018-02-04 12:52:13 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:52:13 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:52:13 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:52:18 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB57] [37255699471]
+2018-02-04 12:52:18 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:52:19 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB34] [37255921299]
+2018-02-04 12:52:19 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:52:19 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:52:19 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:52:20 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB12] [3725570031]
+2018-02-04 12:52:20 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:52:20 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:52:20 rupucis-eME529 root[27782] DEBUG Port check: {'status': 'call_hangup', 'call_id': 38122}
+2018-02-04 12:52:25 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB61] [37255699254]
+2018-02-04 12:52:25 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:52:25 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB39] [37255922313]
+2018-02-04 12:52:25 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:52:25 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB16] [37255699799]
+2018-02-04 12:52:25 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:52:25 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:52:25 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:52:25 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:52:31 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB66] [37258387570]
+2018-02-04 12:52:31 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:52:31 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB43] [37255699899]
+2018-02-04 12:52:31 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:52:31 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:52:31 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB21] [3725570004]
+2018-02-04 12:52:31 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:52:31 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:52:31 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:52:37 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB25] [3725570030]
+2018-02-04 12:52:37 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:52:37 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB48] [37255922342]
+2018-02-04 12:52:37 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:52:37 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:52:37 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:52:39 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB3] [37255699925]
+2018-02-04 12:52:39 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:52:39 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:52:43 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB52] [37255699466]
+2018-02-04 12:52:43 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:52:43 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:52:43 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB30] [3725570028]
+2018-02-04 12:52:43 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:52:43 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB7] [37255922150]
+2018-02-04 12:52:43 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:52:43 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:52:43 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:52:49 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB57] [37255699471]
+2018-02-04 12:52:49 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:52:49 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB34] [37255921299]
+2018-02-04 12:52:49 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:52:49 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:52:49 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:52:50 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB12] [3725570031]
+2018-02-04 12:52:50 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:52:50 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:52:50 rupucis-eME529 root[27782] DEBUG Port check: {'status': 'call_hangup', 'call_id': 38122}
+2018-02-04 12:52:55 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB61] [37255699254]
+2018-02-04 12:52:55 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:52:55 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB39] [37255922313]
+2018-02-04 12:52:55 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:52:55 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB16] [37255699799]
+2018-02-04 12:52:55 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:52:55 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:52:56 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:52:56 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:53:01 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB66] [37258387570]
+2018-02-04 12:53:01 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:53:01 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB43] [37255699899]
+2018-02-04 12:53:01 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:53:01 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:53:01 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:53:01 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB21] [3725570004]
+2018-02-04 12:53:01 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:53:01 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:53:07 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB25] [3725570030]
+2018-02-04 12:53:07 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:53:07 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB48] [37255922342]
+2018-02-04 12:53:07 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:53:07 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:53:07 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:53:09 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB3] [37255699925]
+2018-02-04 12:53:09 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:53:09 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:53:13 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB52] [37255699466]
+2018-02-04 12:53:13 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:53:13 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB30] [3725570028]
+2018-02-04 12:53:13 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:53:13 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:53:13 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB7] [37255922150]
+2018-02-04 12:53:13 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:53:13 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:53:13 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:53:19 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB57] [37255699471]
+2018-02-04 12:53:19 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:53:19 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB34] [37255921299]
+2018-02-04 12:53:19 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:53:19 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:53:19 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:53:20 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB12] [3725570031]
+2018-02-04 12:53:20 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:53:21 rupucis-eME529 urllib3.connectionpool[27782] DEBUG http://voip-api.ccprivate.me:80 "POST /api/get_schedule_list HTTP/1.1" 200 None
+2018-02-04 12:53:21 rupucis-eME529 root[27782] DEBUG Port check: {'status': 'call_hangup', 'call_id': 38122}
+2018-02-04 12:53:25 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB61] [37255699254]
+2018-02-04 12:53:25 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:53:26 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB39] [37255922313]
+2018-02-04 12:53:26 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me
+2018-02-04 12:53:26 rupucis-eME529 root[27782] DEBUG Reading port : [/dev/ttyUSB16] [37255699799]
+2018-02-04 12:53:26 rupucis-eME529 urllib3.connectionpool[27782] DEBUG Starting new HTTP connection (1): voip-api.ccprivate.me

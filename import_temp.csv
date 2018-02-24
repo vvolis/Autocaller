@@ -1,0 +1,11 @@
+Pool,Number,MinCall,MaxCall,MaxDaily,PayTerms,PayRate
+CLI,1,,,30,,
+CLI,2,,,30,,
+CLI,3,,,30,,
+CLI,4,,,30,,
+CLI,5,,,30,,
+DDI,B,3,5,90,7/1,0.1
+DDI,C,3,5,100,30/50,0.3
+DDI,D,3,5,100,30/50,0.2
+DDI,E,3,5,100,30/50,0.4
+DDI,A,3,5,100,7/1,0.1
